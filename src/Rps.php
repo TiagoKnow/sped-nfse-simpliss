@@ -1,6 +1,6 @@
 <?php
 
-namespace NFePHP\Simpliss;
+namespace NFePHP\NFSeSimpliss;
 /**
  * Class for RPS construction and validation of data
  *
@@ -10,7 +10,7 @@ namespace NFePHP\Simpliss;
  * @license   http://www.gnu.org/licenses/lgpl.txt LGPLv3+
  * @license   https://opensource.org/licenses/MIT MIT
  * @license   http://www.gnu.org/licenses/gpl.txt GPLv3+
- * @author    Sidnei Luiz Baumgartenn <sidnei at sbaum dot com dot br>
+ * @author    Roberto L. Machado <linux.rlm at gmail dot com>, Sidnei L. Baumgartenn <sidnei at sbaum dot com dot br>
  * @link      https://github.com/prsidnei/sped-nfse-simpliss for the canonical source repository
  */
 
@@ -20,7 +20,7 @@ use NFePHP\NFSeEGoverne\RpsInterface;
 use NFePHP\NFSeEGoverne\Common\Factory;
 use JsonSchema\Validator as JsonValid;
 
-class Rps implements RpsInterface
+class Rps implements \NFePHP\NFSeSimpliss\RpsInterface
 {
     /**
      * @var stdClass
