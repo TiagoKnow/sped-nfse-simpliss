@@ -1,7 +1,7 @@
 {
-  "name": "nfephp-org/sped-nfse-simpliss",
+  "name": "tiagoknow/sped-nfse-simpliss",
   "type": "library",
-  "description": "Framework para geração e comunicação de RPS e NFSe no padão Simpliss.",
+  "description": "API para geração e comunicação de RPS e NFSe no padrão Simpliss.",
   "keywords": ["nfe","nfse","sped","nfephp"],
   "homepage": "https://www.snfe.com.br",
   "license": ["LGPL-3.0-or-later", "GPL-3.0-or-later", "MIT"],
